@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Icono de Pestaña-->
-    <link rel="shortcut icon" href="img/logo-header.png">
-    
+<link rel="shortcut icon" href="./img/logo-header.png">
+
     <!--Linkeo con CSS-->
-    <link rel="stylesheet" href="/scss/estilos.css">
-    <link rel="stylesheet" href="/scss/estilos.scss">
+    <link rel="stylesheet" href="./scss/estilos.css">
+    <link rel="stylesheet" href="./scss/estilos.scss">
 
     <!--Posicionamiento SEO-->
     <meta name="author" content="Nicolas Passini">
@@ -18,13 +18,13 @@
     <meta name="keywords" content="Tienda Telas Venta Mayorista Minorista Toallas Toallones Sabanas Cortinas Alcolchados Frazadas Importadores Fabricantes">
     
     <!--Indicaciones para el ROBOT-->
-    <meta class="robot" content="acerca de nosotros">
+    <meta class="robot" content="contacto">
 
     <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <!--Titulo de la Página Web-->
-    <title>Acerca de nosotros</title>
+    <title>Contacto</title>
 
     <!--Bootstrap Versión 5.1.3-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -43,7 +43,7 @@
 
             <nav class="header__navbar navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/index.html"><img src="/img/logo-header.png" alt="logo header"
+                    <a class="navbar-brand" href="index.html"><img src="./img/logo-header.png" alt="logo header"
                             class="header__logo"></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -73,43 +73,32 @@
             </nav>
 
 
+
     </header>
+    
+<!--Sección CONTACTO-->
+<section id="contacto" class="contenedor">
+    <h2>Deja tu mensaje</h2>
+    <p>Dejanos tu consulta que en menos de 24 horas te asesoraremos</p>
 
-    <!--Sección "Conocenos"-->
-    <section id="conocenos">
-        <div class="contenedor">
-            <h2>¿POR QUÉ SOMOS LOS MEJORES?</h2>
-            <p> Somos la <b>primera tienda especializada en tecnología de la Argentina</b> con más de 22 años en el mercado y, por ello, tenemos el compromiso de ofrecerte la tecnología más innovadora brindándote una experiencia de compra única.
-            </p>
-            <p>
-                Somos apasionados de las tradiciones, queremos cuidar hasta el último detalle y que te sientas a gusto en todo momento: tenemos tanta confianza en la calidad de los productos que comercializamos y la experiencia de compra que te vamos a brindar que tendrás una garantía de devolución de 30 días en caso que te arrepientas de haber realizado la compra.
-            </p>
+    <form class="form">
+
+        <div class="contenedorInput">
+            <input class="area" type="text" placeholder="Ingrese su nombre">
+            <input class="area" type="text" placeholder="Ingrese su apellido">
+            <input class="area" type="email" placeholder="Ingrese su email">
         </div>
-    </section>
-
-    <section id="conocenos">
-        <div class="contenedor">
-            <h2>GARANTÍA DE DEVOLUCIÓN</h2>
-            <p> Estamos tan confiados de la calidad de nuestros productos que te damos una <b>¡garantía de devolución de 60 días!</b>. Si durante ese periodo de tiempo te arrepentis de haber comprado alguno de nuestros productos sin necesidad de darnos ninguna explicación envias el producto al correo, nos llega y se te devolverá la totalidad de tu dinero.
-            </p>
-            <p>
-                Es importante que el producto se encuentre en las mismas condiciones en la que lo recibiste, que su packaging no esté dañado y que no haya recibido ninguna modificación en su funcionalidad. Ya que en ese caso, solo podremos devolverte una fracción del dinero.
-            </p>
-        </div>
-    </section>
-
-    <section id="conocenos">
-        <div class="contenedor">
-            <h2>GARANTIA DE SATISFACCIÓN</h2>
-            <p> Si contratas alguno de nuestros servicios de asesoramiento y por alguna razón no te encuentras conforme con el mismo sin necesidad de tener que darnos una explicación tendrás nuestra <b>¡garantía de satisfacción de 30 días!</b> donde podrás pedir la devolución total o parcial de tu dinero.</p> 
-
-        </div>
-    </section>
+        <textarea class="area" name="mensaje" id="mensaje" cols="30" rows="10"
+            placeholder="Ingrese su mensaje"></textarea>
+        <input class="boton" type="submit">
+        <input class="boton" type="reset">
+    </form>
+</section>
 
 <!--BOTON WSP-->
 <a href="contacto.html">
     <div class="botonWsp">
-    <img src="/img/logoWhatsapp.png" alt="">
+    <img src="./img/logoWhatsapp.png" alt="">
 </div>
 </a>
 
@@ -126,7 +115,7 @@
             Av. Chacabuco 1472 - Local 2
     </div>
     <div>
-        <img src="/img/logo-header.png" alt="logo tienda" class="footer__logo">
+        <img src="./img/logo-header.png" alt="logo tienda" class="footer__logo">
     </div>
     <div>
         <p class="footer__datos--2">Encontra los mejores productos de Tecnologia al mejor precio.
@@ -134,5 +123,6 @@
             Somos la tienda de tecnologia mas grande de la Argentina.</p>
     </div>
 </footer>
+
 </body>
 </html>
